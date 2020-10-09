@@ -1,0 +1,11 @@
+.ctr-404{
+    height:100vh;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    background: white;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
