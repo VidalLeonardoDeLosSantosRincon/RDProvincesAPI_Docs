@@ -11,7 +11,6 @@ function App({children}) {
     <div className="App">
       <Header/>
       <Content>
-        Rd Provinces API
         {children}
       </Content>
       <Footer/>
