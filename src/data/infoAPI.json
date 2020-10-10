@@ -1,3 +1,65 @@
 {
-    
+    "title": "DR Provinces API",
+    "description": "An API that allows to retrieve relevant information about the Dominican Republic provinces.",
+    "end_points": [
+        {
+            "name": "All",
+            "urls": [
+                "/",
+                "/provinces"
+            ],
+            "description": "Get all provinces"
+        },
+        {
+            "name": "NAME",
+            "urls": [
+                "/provinces/name/{name}"
+            ],
+            "description": "Allows to find a province by its name"
+        },
+        {
+            "name": "CODE",
+            "urls": [
+                "/provinces/{code}",
+                "/provinces/code/{code}"
+            ],
+            "description": "Allows to find a province by its code"
+        }
+    ],
+    "url_parameters": [
+        {
+            "name": "LANG",
+            "values": ["en (default)", "es"],
+            "description": "Allows to change API response language",
+            "examples": [
+                "/?lang=es",
+                "/?lang=en",
+                "/provinces/?lang=es",
+                "/provinces/?lang=en",
+                "/provinces/name/{name}?lang=es",
+                "/provinces/name/{name}?lang=en",
+                "/provinces/{code}?lang=es",
+                "/provinces/{code}?lang=en",
+                "/provinces/code/{code}?lang=es",
+                "/provinces/code/{code}?lang=en"
+            ]    
+        },
+        {
+            "name": "SIMPLIFIED",
+            "values":["false (default)", "true"],
+            "description": "Allows to get a simplicied API response",
+            "examples": [
+                "/?simplicied=true",
+                "/?simplicied=false",
+                "/provinces/?simplicied=true",
+                "/provinces/?simplicied=false",
+                "/provinces/name/{name}?simplicied=true",
+                "/provinces/name/{name}?simplicied=false",
+                "/provinces/{code}?simplicied=true",
+                "/provinces/{code}?simplicied=false",
+                "/provinces/code/{code}?simplicied=true",
+                "/provinces/code/{code}?simplicied=false"
+            ]
+        }
+    ]
 }
