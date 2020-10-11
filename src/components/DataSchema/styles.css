@@ -1,0 +1,24 @@
+.data-schema-box {
+    width:100%;
+    margin:5px 0px;
+    background:white;
+    border: 0.5px solid rgba(0,0,0,0.04); 
+    border-radius:5px; 
+    text-align:left; 
+    padding:10px 0px; 
+    box-sizing:border-box;
+}
+
+.data-schema-box .subtitle{
+    font-weight: 300;
+    font-size: 16px;
+    color:gray;
+}
+
+.data-schema-box hr{
+    width:100%;
+    border:none;
+    background:rgba(0,0,0,0.1);
+    height:0.5px;
+    box-shadow: none;
+}
