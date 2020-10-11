@@ -11,11 +11,13 @@ import {InfoArea} from "../../components/InfoArea";
 import {EndPointsArea} from "../../components/EndPointsArea";
 import {UrlParametersArea} from "../../components/UrlParametersArea";
 import { DataSchema } from "../../components/DataSchema";
+import {NavBar} from "../../components/NavBar";
 
 export default function(props){
     return(
         <div className="ctr-home">
             {console.log(data)}
+            <NavBar/>
             <InfoArea title={data.title} description={data.description}/>
             <EndPointsArea endpoints={data.end_points}/>
             <UrlParametersArea urlParameters={data.url_parameters}/>            
