@@ -1,0 +1,71 @@
+@media screen and (max-width:750px){
+    .url-parameters-area{
+        width:100%;
+        height:auto;
+        padding:10px 25px;
+        box-sizing: border-box;
+        background:white;
+        border:0.5px solid rgba(0,0,0,0.04);
+        border-radius: 5px;
+        color:gray;
+        
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    
+    .url-parameters-area .subtitle{
+        font-weight: 300;
+        font-size: 22px;
+        color:orange;
+    }
+    
+    .url-parameters-area hr{
+        width:100%;
+        border:none;
+        background:rgba(0,0,0,0.1);
+        height:0.5px;
+        box-shadow: none;
+    }
+    
+    .url-parameters-area .url-parameter-box{
+        background: rgba(0,0,0,0.08);
+        width:100%;
+        height:auto;
+        padding:10px 15px;
+        margin:10px 0;
+        box-sizing:border-box;
+        border-radius:5px;
+    
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    
+    .url-parameters-area .url-parameter-box p{
+        margin-bottom:5px;
+    }
+    
+    .url-parameters-area .url-parameter-box .parameter-values{
+        margin-left:10px;
+        list-style:none;
+    }
+    
+    .url-parameters-area .url-parameter-box .parameter-values li{
+        text-align: left;
+        color:orangered;
+    }
+    
+    .url-parameters-area .url-parameter-box .url-examples{
+        margin-left:10px;
+        list-style:none;
+    }
+    
+    .url-parameters-area .url-parameter-box .url-examples li{
+        text-align: left;
+        color:gray;
+        font-size: 14px;
+    }   
+}
