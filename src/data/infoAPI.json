@@ -61,5 +61,26 @@
                 "/provinces/code/{code}?simplified=false"
             ]
         }
-    ]
+    ],
+    "data_schema":{
+        "full_response":{
+            "code":0,
+            "name": "",
+            "region": "",
+            "coordinates":{
+                "longitude":"",
+                "latitude":""
+            },
+            "main_municipality":"",
+            "municipalities":[]
+        },
+        "simplified_response":{
+            "code":0,
+            "name": "",
+            "coordinates":{
+                "longitude":"",
+                "latitude":""
+            }
+        }
+    }
 }
