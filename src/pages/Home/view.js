@@ -2,7 +2,7 @@ import React from "react";
 
 //styles
 import "./styles.css"; 
-//import "./styles_responsive.css";
+import "./styles_responsive.css";
 
 //data
 import data from "../../data/infoAPI.json";
