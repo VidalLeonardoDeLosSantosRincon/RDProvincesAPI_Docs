@@ -47,18 +47,18 @@
         {
             "name": "SIMPLIFIED",
             "values":["false (default)", "true"],
-            "description": "Allows to get a simplicied API response",
+            "description": "Allows to get a simplified API response",
             "examples": [
-                "/?simplicied=true",
-                "/?simplicied=false",
-                "/provinces/?simplicied=true",
-                "/provinces/?simplicied=false",
-                "/provinces/name/{name}?simplicied=true",
-                "/provinces/name/{name}?simplicied=false",
-                "/provinces/{code}?simplicied=true",
-                "/provinces/{code}?simplicied=false",
-                "/provinces/code/{code}?simplicied=true",
-                "/provinces/code/{code}?simplicied=false"
+                "/?simplified=true",
+                "/?simplified=false",
+                "/provinces/?simplified=true",
+                "/provinces/?simplified=false",
+                "/provinces/name/{name}?simplified=true",
+                "/provinces/name/{name}?simplified=false",
+                "/provinces/{code}?simplified=true",
+                "/provinces/{code}?simplified=false",
+                "/provinces/code/{code}?simplified=true",
+                "/provinces/code/{code}?simplified=false"
             ]
         }
     ]
